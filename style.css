@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
+
+
+body {
+    background: #161b22;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 520px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: #353c47aa;
+    border-radius: 25px;
+
+}
+
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* display: block; */
+    float: none;
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-left: 20px;
+    /* float: left; */
+
+}
+
+.base h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+    box-shadow: 1px 2px #1f252e;
+    font-size: 34px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+}
+
+input[type=text] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #161b22;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+input[type=text] {
+    border: 2px solid #45485a;
+    outline: none;
+}
+
+input[type=button] {
+    width: 150px;
+    margin-left: 20%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: tomato;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=button]:hover {
+    background-color: red;
+    color: #161b22;
+    font-weight: 700;
+    transition: all .8s;
+}
+
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+}
+
+button {
+    width: 150px;
+    /* margin-left: 35%; */
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: tomato;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: red;
+    color: #161b22;
+    font-weight: 700;
+    transition: all .9s;
+}
